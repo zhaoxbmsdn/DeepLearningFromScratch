@@ -8,7 +8,7 @@ def sigmoid(x):
 
 
 def step_function(x):
-    return np.array(x > 0, dtype=np.int)
+    return np.array(x > 0, dtype=np.int) # x > 0 为真，返回1，否则返回0
 
 x = np.arange(-5.0, 5.0, 0.1)
 y1 = sigmoid(x)
